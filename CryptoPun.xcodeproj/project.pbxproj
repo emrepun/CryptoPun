@@ -13,6 +13,7 @@
 		FB2F237421C3E1B90035A426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB2F237321C3E1B90035A426 /* Assets.xcassets */; };
 		FB2F237721C3E1B90035A426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB2F237521C3E1B90035A426 /* LaunchScreen.storyboard */; };
 		FB2F237F21C3E1D40035A426 /* TranspositionCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F237E21C3E1D40035A426 /* TranspositionCipher.swift */; };
+		FB2F238121C3E4EC0035A426 /* CaesarCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2F238021C3E4EC0035A426 /* CaesarCipher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FB2F237621C3E1B90035A426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB2F237821C3E1B90035A426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB2F237E21C3E1D40035A426 /* TranspositionCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranspositionCipher.swift; sourceTree = "<group>"; };
+		FB2F238021C3E4EC0035A426 /* CaesarCipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FB2F237521C3E1B90035A426 /* LaunchScreen.storyboard */,
 				FB2F237821C3E1B90035A426 /* Info.plist */,
 				FB2F237E21C3E1D40035A426 /* TranspositionCipher.swift */,
+				FB2F238021C3E4EC0035A426 /* CaesarCipher.swift */,
 			);
 			path = CryptoPun;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				FB2F236F21C3E1B80035A426 /* ViewController.swift in Sources */,
 				FB2F237F21C3E1D40035A426 /* TranspositionCipher.swift in Sources */,
 				FB2F236D21C3E1B80035A426 /* AppDelegate.swift in Sources */,
+				FB2F238121C3E4EC0035A426 /* CaesarCipher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

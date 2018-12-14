@@ -11,6 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
+        let testMsg = "fnsf ibwbo"
+        var key = 1
+        let encrypted = CaesarCipher.shared.decrypt(message: testMsg, key: &key)
+        print(encrypted)
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
